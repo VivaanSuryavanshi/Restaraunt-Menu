@@ -1,0 +1,35 @@
+<html>
+
+<head>
+    <title>
+        Restaraunt Menu
+    </title>
+    <link rel="stylesheet" href="style.css">
+    <script src="main.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Corinthia:wght@700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div class="topnav">
+        <a href="#display_menu" onclick="getmenu()">View Menu</a>
+        <a href="#add_dishes" onclick="adddishes()">Add Dishes</a>
+    </div>
+    <br>
+    <br>
+    <h1>
+        Restaraunt Menu
+    </h1>
+    <div class="divmenu">
+        <div id="display_menu"></div>
+    </div>
+    <div id="add_dishes">
+        <input id="item" placeholder="Type your dish here!">
+        <br>
+        <br>
+        <button class="adddishbutton" onclick="additem()">
+         Add Your Dish
+        </button>
+    </div>
+</body>
+
+</html>
