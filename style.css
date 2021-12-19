@@ -39,3 +39,16 @@ a:hover{
     height:30px;
     margin:10px;
 }
+.menuList{
+    color:white;
+    font-size:20px;
+    padding:20px;
+    font-family:cursive;
+    width:20%;
+}
+.menuList li{
+    padding-bottom:20px;
+}
+#add_dishes{
+    display:none;
+}
